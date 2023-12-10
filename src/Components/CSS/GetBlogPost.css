@@ -1,0 +1,74 @@
+/* GetBlogPost.css */
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#sectorFilter {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.blog-post img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.blog-details {
+    color: #555;
+}
+
+.blog-details p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.blog-details p:last-child {
+    margin-bottom: 0;
+}
+
+.selected-sector {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 20px;
+}

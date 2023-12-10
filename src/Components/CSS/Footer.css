@@ -1,0 +1,64 @@
+/* CSS/Footer.css */
+
+.site-footer {
+    background: linear-gradient(to bottom, #2c3e50, #333);
+    color: #ecf0f1;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line if necessary */
+}
+
+.contact-info,
+.social-links {
+    flex: 1;
+    padding: 0 20px;
+    margin: 20px 0;
+    /* Add some margin to separate sections */
+}
+
+h3 {
+    color: #3498db;
+}
+
+.contact-info p,
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info strong {
+    color: #e74c3c;
+}
+
+.social-links ul {
+    display: flex;
+    /* Display the icons in a row */
+    padding: 0;
+    justify-content: center;
+    /* Center the icons horizontally */
+}
+
+.social-links li {
+    margin: 0 10px;
+    /* Add some spacing between the icons */
+}
+
+.social-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #3498db;
+}
+
+.copyright {
+    margin-top: 20px;
+}
